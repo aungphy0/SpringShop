@@ -1,4 +1,4 @@
-package com.shopme.common.entity;
+package com.shopme.common.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -90,7 +90,7 @@ public class Role {
 
 	@Override
 	public String toString() {
-		return "Role [name=" + name + "]";
+		return this.name;
 	}
 
 

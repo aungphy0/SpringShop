@@ -12,7 +12,8 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.annotation.Rollback;
 
-import com.shopme.common.entity.Role;
+import com.shopme.admin.repositories.RoleRepository;
+import com.shopme.common.entities.Role;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)

@@ -1,4 +1,4 @@
-package com.shopme.common.entity;
+package com.shopme.common.entities;
 
 import java.util.HashSet;
 import java.util.Set;
